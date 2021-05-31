@@ -1,0 +1,63 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    height: 100vh;
+    font-family: sans-serif;
+    display: flex;
+    flex-direction: column;
+}
+
+.nav {
+    background-color: rgb(65,60,118);
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1em;
+}
+
+.menu {
+    display: flex;
+    gap: 1em;
+}
+
+.link {
+    color: white;
+    text-transform: uppercase;
+    text-decoration-line: none;
+}
+
+.link:hover {
+    text-decoration-line: underline;
+}
+
+.active {
+    text-decoration-line: underline;
+}
+
+.container {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 1em;
+    color: rgb(17, 17, 17);
+}
+
+.home {
+    background-color: rgb(138, 173, 238);
+}
+
+.contacts {
+    background-color: rgb(238, 138, 208);
+}
+
+.products {
+    background-color: rgb(238, 228, 138);
+}
